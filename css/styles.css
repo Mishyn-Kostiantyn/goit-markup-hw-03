@@ -1,0 +1,191 @@
+:root {
+  --primary-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --main-text-color: #434455;
+  --background-color: #2e2f42;
+  --button-background-color: #f4f4fd;
+}
+body {
+  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+/* Logo */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+.logo-text {
+  color: var(--primary-text-color);
+}
+/* Menunav */
+.option {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+  letter-spacing: 0.02em;
+}
+.option:hover {
+  color: #404bbf;
+}
+.option:focus {
+  color: #404bbf;
+}
+/* Menunav-Adress */
+.address {
+  font-style: normal;
+}
+.contacts-option {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-text-color);
+}
+.contacts-option:hover {
+  color: #404bbf;
+}
+.contacts-option:focus {
+  color: #404bbf;
+}
+/* Scrolls */
+/* Hero */
+.hero {
+  background-color: var(--background-color);
+}
+.hero-text {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.hero-button {
+  background-color: #4d5ae5;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  width: 169px;
+  height: 56px;
+  cursor: pointer;
+}
+.hero-button:focus {
+  background-color: #404bbf;
+}
+.hero-button:hover {
+  background-color: #404bbf;
+}
+
+/* Sections */
+.sectiontwo-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-text-color);
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+.section-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.section-description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-text-color);
+}
+.section-four {
+  background-color: #f4f4fd;
+}
+.section-four-list-item {
+  background-color: #ffffff;
+}
+/* Footer */
+.footer {
+  background-color: var(--background-color);
+}
+.logofooter {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+.logofooter-text {
+  color: #f4f4fd;
+}
+.footer-description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f4f4fd;
+}
+/* Portfolio */
+/* Filter */
+.filter-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--accent-color);
+  background-color: var(--button-background-color);
+  text-align: center;
+  cursor: pointer;
+}
+.filter-button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+.filter-button:hover {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+.filter-button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+/* Our projects */
+.our-projects-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.our-projects-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
