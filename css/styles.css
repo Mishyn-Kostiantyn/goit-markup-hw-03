@@ -2,8 +2,8 @@
   --primary-text-color: #2e2f42;
   --accent-color: #4d5ae5;
   --main-text-color: #434455;
-  --background-color: #2e2f42;
-  --button-background-color: #f4f4fd;
+  --hero-footer-background-color: #2e2f42;
+  --button-section-background-color: #f4f4fd;
 }
 body {
   background-color: #ffffff;
@@ -29,6 +29,8 @@ p {
 /* Top-line */
 .container {
   width: 1128px;
+  padding-left: 0px;
+  padding-right: 0px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -78,7 +80,13 @@ p {
 /* Scrolls */
 /* Hero */
 .hero {
-  background-color: var(--background-color);
+  background-color: var(--hero-footer-background-color);
+  padding-top: 188px;
+  padding-left: 472px;
+  padding-right: 472px;
+  padding-bottom: 188px;
+  text-align: center;
+  margin-bottom: 120px;
 }
 .hero-text {
   margin-top: 0;
@@ -91,17 +99,22 @@ p {
   letter-spacing: 0.02em;
 }
 .hero-button {
+  display: inline-block;
   background-color: #4d5ae5;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
-  width: 169px;
-  height: 56px;
+  border-radius: 4px;
   cursor: pointer;
+  margin-top: 48px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-left: auto;
 }
 .hero-button:focus {
   background-color: #404bbf;
@@ -111,6 +124,13 @@ p {
 }
 
 /* Sections */
+.section {
+  margin-top: 120px;
+}
+.padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .sectiontwo-title {
   font-weight: 700;
   font-size: 36px;
@@ -139,16 +159,19 @@ p {
   font-size: 16px;
   line-height: 1.5;
   color: var(--main-text-color);
+  margin-top: 8px;
 }
-.section-four {
-  background-color: #f4f4fd;
+.bg {
+  background-color: var (--button-section-background-color);
 }
 .section-four-list-item {
   background-color: #ffffff;
 }
 /* Footer */
 .footer {
-  background-color: var(--background-color);
+  background-color: var(--hero-footer-background-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .logofooter {
   font-family: Raleway, sans-serif;
@@ -163,12 +186,21 @@ p {
   color: #f4f4fd;
 }
 .footer-description {
+  margin-top: 16px;
+  width: 264px;
   font-size: 16px;
   line-height: 1.5;
   color: #f4f4fd;
 }
 /* Portfolio */
 /* Filter */
+.filter {
+  margin-bottom: 72px;
+}
+.section-portfolio {
+  margin-top: 96px;
+  margin-bottom: 120px;
+}
 .filter-button {
   font-family: inherit;
   font-weight: 500;
@@ -176,9 +208,10 @@ p {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--accent-color);
-  background-color: var(--button-background-color);
+  background-color: var(--button-section-background-color);
   text-align: center;
   cursor: pointer;
+  border-radius: 4px;
 }
 .filter-button:focus {
   background-color: #404bbf;
@@ -205,4 +238,5 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  margin-top: 8px;
 }
