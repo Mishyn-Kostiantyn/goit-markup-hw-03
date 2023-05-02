@@ -75,14 +75,11 @@ img {
 }
 .menunav {
   display: flex;
+  gap: 40px;
 }
-/* .menunav .item:not(:last-child) {
-  margin-right: 40px;
-} */
-.menunav .item + .item {
-  margin-left: 40px;
+.menunav .item:last-child {
+  margin-right: 0px;
 }
-
 .option {
   display: block;
   padding-top: 24px;
@@ -107,9 +104,11 @@ img {
 }
 .contacts {
   display: flex;
+  gap: 40px;
 }
-.contacts .item + .item {
-  margin-left: 40px;
+.contacts .item:last-child {
+  margin-right: 40px;
+  :40px ;
 }
 .contacts-option {
   font-weight: 400;
@@ -128,7 +127,6 @@ img {
 .hero {
   background-color: var(--hero-footer-background-color);
   padding: 188px 0;
-  margin-bottom: 120px;
 }
 
 .hero-text {
@@ -173,10 +171,9 @@ img {
 
 /* Sections */
 .section {
-  margin-top: 120px;
+  padding: 120px 0;
 }
-.padding {
-  padding-top: 120px;
+.section-works {
   padding-bottom: 120px;
 }
 .sectiontwo-title {
@@ -203,12 +200,12 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  margin-bottom: 8px;
 }
 .section-description {
   font-size: 16px;
   line-height: 1.5;
   color: var(--main-text-color);
-  margin-top: 8px;
 }
 .bg {
   background-color: var (--button-section-background-color);
@@ -217,13 +214,18 @@ img {
   background-color: #ffffff;
   width: 264px;
   text-align: center;
+  border-radius: 0px 0px 4px 4px;
+}
+.section-four-list-item:last-child {
+  margin-right: 0px;
 }
 /* Section-2-Features */
 .features {
   display: flex;
+  gap: 24px;
 }
-.features .item + .item {
-  margin-left: 24px;
+.features .item:last-child {
+  margin-right: 0px;
 }
 .features .item {
   width: 264px;
@@ -231,19 +233,24 @@ img {
 /* Section-3-Works */
 .works {
   display: flex;
+  gap: 24px;
 }
-.works .item + .item {
-  margin-left: 24px;
+.works .item:last-child {
+  margin-right: 0px;
 }
 /* Section-4-Team */
 .team {
   display: flex;
+  gap: 24px;
 }
-.team .item + .item {
-  margin-left: 24px;
+.team-name-profession {
+  padding: 32px 16px;
 }
-.team .section-header {
-  margin-top: 32px;
+.team-name-profession .section-header {
+  text-align: center;
+}
+.team-name-profession .section-description {
+  text-align: center;
 }
 /* Footer */
 .footer {
